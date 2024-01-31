@@ -7,7 +7,7 @@ The app uses a Support Vector Machine (SVM) model trained on the StressLevelData
 2. Run the app with `streamlit run streamlit_app.py`.
 3. Adjust sliders for each feature, click 'Predict,' and interpret the results.
 
-- The app is deployed using Streamlit Sharing.
+- The app is deployed using Streamlit.
 
 ## Acknowledgments
 - Special thanks to contributors or data sources.
