@@ -12,8 +12,5 @@ The app uses a Support Vector Machine (SVM) model trained on the StressLevelData
 ## Acknowledgments
 - Special thanks to contributors or data sources.
 
-## License
-This project is licensed under the MIT License. 
-
 
 
