@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Loading the trained SVM model
-model = joblib.load('mental_health_recognition.pkl')
+model = joblib.load('streamlit_code/mental_health_recognition.pkl')
 
 
 # Loading feature ranges dynamically
@@ -27,7 +27,7 @@ feature_ranges = {
 }
 
 # Loading the saved correlation matrix from the JSON file
-with open('correlation_matrix.json', 'r') as json_file:
+with open('streamlit_code/correlation_matrix.json', 'r') as json_file:
     corr_dict = json.load(json_file)
 
 # Converting the dictionary back to a DataFrame
